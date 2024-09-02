@@ -1,8 +1,8 @@
 import './App.css';
 import { ChakraProvider } from '@chakra-ui/react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { About } from './pages/about'
-import { Home } from './pages/home'
+import { About } from './pages/AboutPage'
+import { Home } from './pages/HomePage'
 
 const App = () => {
   return (
